@@ -92,7 +92,7 @@
     "@dominicode-ui": {
       "projectType": "library",
       "root": "projects/dominicode-ui",
-      "sourceRoot": "projects/dominicode-ui/src",
+      "sourceRoot": "projects/dominicode-ui",
       "prefix": "lib",
       "architect": {
         "build": {

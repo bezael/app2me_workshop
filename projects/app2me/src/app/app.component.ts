@@ -11,5 +11,9 @@ import { ButtonUIComponent } from '@dominicode-ui/button';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'app2me';
+  title = 'Hello, app2me';
+
+  handleButtonClick(): void {
+    console.log('Button clicked!');
+  }
 }

@@ -6,7 +6,12 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "start:demo": "ng serve app2me",
+    "lib:start": "ng build @dominicode-ui --watch",
+    "lib:test": "ng test @dominicode-ui",
+    "lib:build": "ng build @dominicode-ui",
+    "build:all": "npm run build:lib && ng build app2me"
   },
   "private": true,
   "dependencies": {
