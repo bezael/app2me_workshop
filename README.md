@@ -1,27 +1,57 @@
-# App2meWorkspace
+# App2me Workspace
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+## Descripción
 
-## Development server
+Breve descripción del proyecto, incluyendo su propósito principal y las tecnologías clave utilizadas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Estructura del Proyecto
 
-## Code scaffolding
+El proyecto consta de dos partes principales:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Aplicación principal
+2. Biblioteca dominicode-ui
 
-## Build
+### Aplicación Principal
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Descripción breve de la aplicación principal, sus características y funcionalidades.
 
-## Running unit tests
+### Biblioteca dominicode-ui
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Descripción de la biblioteca dominicode-ui, su propósito y los componentes principales que ofrece.
 
-## Running end-to-end tests
+## Requisitos Previos
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Lista de software y herramientas necesarias para ejecutar el proyecto, por ejemplo:
 
-## Further help
+- Node.js (versión 20.14.0 o superior)
+- npm
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Instalación
+
+### Clonar el repositorio
+
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 18.2.5.
+
+### Instalar dependencias
+
+```bash
+npm install
+# o
+yarn install
+```
+
+## Servidor de desarrollo
+
+Ejecuta `ng serve` para iniciar un servidor de desarrollo. Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambias alguno de los archivos fuente.
+
+## Compilación
+
+Ejecuta `ng build` para compilar el proyecto. Los artefactos de compilación se almacenarán en el directorio `dist/`.
+
+## Ejecutar pruebas unitarias
+
+Ejecuta `ng test` para ejecutar las pruebas unitarias a través de [Karma](https://karma-runner.github.io).
+
+### Usar la biblioteca dominicode-ui
+
+Instrucciones básicas sobre cómo importar y utilizar los componentes de la biblioteca en otros proyectos.
