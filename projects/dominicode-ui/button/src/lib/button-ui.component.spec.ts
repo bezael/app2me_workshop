@@ -70,13 +70,6 @@ describe('ButtonUIComponent', () => {
     expect(buttonElement.style.fontSize).toBe('20px');
   });
 
-  // it('should use TranslatePipe for label', () => {
-  //   const buttonElement: HTMLButtonElement =
-  //     fixture.nativeElement.querySelector('[data-testid="button-ui"]');
-  //   expect(buttonElement.textContent?.trim()).toBe('Click me! (translated)');
-  //   expect(translatePipeSpy.transform).toHaveBeenCalledWith('Click me!');
-  // });
-
   describe('onClick', () => {
     it('should emit clicked event when onClick is called', () => {
       // Arrange
