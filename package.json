@@ -5,13 +5,16 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "start:demo": "ng serve app2me",
+    "test": "run-p lib:test demo:test",
+    "demo:start": "ng serve app2me",
+    "demo:watch": "ng build app2me --watch --configuration development",
+    "demo:test": "ng test app2me",
     "lib:start": "ng build @dominicode-ui --watch",
+    "lib:watch": "ng build @dominicode-ui --watch --configuration development",
     "lib:test": "ng test @dominicode-ui",
     "lib:build": "ng build @dominicode-ui",
-    "build:all": "npm run build:lib && ng build app2me"
+    "build:all": "npm run build:lib && ng build app2me",
+    "clean": "rimraf dist"
   },
   "private": true,
   "dependencies": {
@@ -39,6 +42,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^18.2.0",
+    "npm-run-all": "^4.1.5",
     "typescript": "~5.5.2"
   }
 }
